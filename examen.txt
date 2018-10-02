@@ -1,0 +1,197 @@
+1ra figura
+size(600,600);
+background(255);
+fill(120);
+ellipse(150,450,100,100);
+ellipse(150,150,100,100);
+ellipse(450,150,100,100);
+ellipse(450,450,100,100);
+
+
+
+
+
+  int x1=450;
+  int x2=150;
+  int x3=150;
+  int x4=450;
+void setup()
+{
+  size(600,600);
+background(255);
+fill(120);
+}
+
+void draw()
+{
+background(255);
+  ellipse(150,x1,100,100);
+ellipse(150,x2,100,100);
+ellipse(450,x3,100,100);
+ellipse(450,x4,100,100);
+x1=x1+1;
+x2=x2-1;
+x3=x3-1;
+x4=x4+1;
+
+}
+
+
+
+
+2da figura
+size(600,600);
+line(width/2,height/2,300,0);
+line(width/2,height/2,0,600);
+line(width/2,height/2,600,600);
+
+
+
+
+int x=300;
+int y=0;
+int z=600;
+void setup()
+{
+  size(600,600);
+background(255);
+fill(120);
+}
+
+void draw()
+{
+line(width/2,height/2,x,0);
+line(width/2,height/2,y,600);
+line(width/2,height/2,600,z);
+x=x-1;
+y=y+1;
+z=z-1;
+}
+
+
+
+3ra figura
+size(600,600);
+background(255);
+fill(120);
+rect(50,50,500,500);
+fill(255);
+ellipse(width/2,height/2,150,150);
+
+
+
+
+int x=255;
+void setup()
+{
+size(600,600);
+background(255);
+}
+
+void draw()
+{
+fill(120);
+rect(50,50,500,500);
+fill(x);
+ellipse(width/2,height/2,150,150);
+x=x-1;
+}
+
+
+
+
+
+
+Ejercicio Final
+
+int x=255;
+
+void setup()
+{
+size(600,600);
+background(255);
+draw();
+}
+
+void draw()
+{
+int cara;
+if(mousePressed == true)
+cara=int(random(1,7));
+if (cara=1)
+{
+  uno();
+}
+if else 
+if(mousePressed == true)
+{
+seis();
+}
+else
+{
+cuatro();
+}
+}
+
+
+void cuatro()
+{
+background(255);
+fill(120);
+ellipse(150,450,100,100);
+ellipse(150,150,100,100);
+ellipse(450,150,100,100);
+ellipse(450,450,100,100);
+}
+void cinco()
+{
+  background(255);
+  fill(120);  
+ellipse(150,450,100,100);
+ellipse(150,150,100,100);
+ellipse(450,150,100,100);
+ellipse(450,450,100,100);
+ellipse(300,300,100,100);
+}
+
+void uno()
+{
+  background(255);
+  fill(120);
+  ellipse(300,300,100,100);
+}
+
+void dos()
+{
+  background(255);
+  fill(120);
+  ellipse(150,450,100,100);
+  ellipse(450,150,100,100);
+}
+
+void tres()
+{
+  background(255);
+  fill(120);
+  ellipse(150,450,100,100);
+  ellipse(450,150,100,100);
+  ellipse(300,300,100,100);
+}
+
+void seis()
+{
+  background(255);
+  fill(120);
+  ellipse(150,450,100,100);
+  ellipse(150,150,100,100);
+  ellipse(450,150,100,100);
+  ellipse(450,450,100,100);
+  ellipse(150,300,100,100);
+  ellipse(450,300,100,100);
+}
+
+
+
+
+
+
